@@ -6,8 +6,7 @@ import re
 WORDLIST_FILENAME = "words.txt"
 
 def loadWords():
-    inFile = open('/Users/vickymiao/google_drive/Learning/Python_MIT/Lecture_6/words.txt'    
-, 'r')
+    inFile = open('words.txt', 'r')
     line = inFile.readline()
     wordlist = line.split()
     return wordlist
